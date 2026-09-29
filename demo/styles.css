@@ -1,0 +1,41 @@
+:root{--accent:#3f3fdc;--accent2:#5b4be8;--ink:#0d1030;--soft:#e9eafd;--muted:#5b5f7a;--line:#e8e9f3}
+*{box-sizing:border-box}html,body{margin:0}
+body{background:#fbfbfe;color:var(--ink);font:16px/1.4 "Inter","SF Pro Display",-apple-system,BlinkMacSystemFont,"PingFang SC","Helvetica Neue",Arial,sans-serif;overflow-x:hidden;position:relative}
+.blob{position:absolute;border-radius:50%;background:#eceefd;z-index:0}
+.b1{left:-330px;top:290px;width:620px;height:620px}.b2{right:-180px;top:158px;width:380px;height:380px}
+.wrap{position:relative;z-index:1;max-width:1410px;margin:0 auto}
+@media(max-width:1500px){.wrap{margin:0 5.5%}}
+.nav{height:92px;display:flex;align-items:center}
+.brand{display:flex;align-items:center;gap:10px;font-size:36px;font-weight:700;letter-spacing:-.03em}
+.links{margin-left:auto;display:flex;align-items:center;gap:50px;font-size:20px;font-weight:500}
+.btn{display:inline-flex;align-items:center;justify-content:center;font-weight:600;border-radius:12px;font-size:21px;text-decoration:none}
+.nav .btn{margin-left:60px;height:54px;padding:0 31px;border-radius:27px;background:#0f1330;color:#fff}
+.hero{text-align:center;padding-top:36px}
+.badge{display:inline-flex;align-items:center;gap:10px;height:48px;padding:0 22px;border-radius:24px;background:var(--soft);color:var(--accent);font-size:18px;font-weight:500}
+h1{margin:16px 0 0;font-size:110px;line-height:.96;letter-spacing:-.04em;font-weight:800}
+.sub{margin:13px 0 0;font-size:27px;color:var(--muted)}
+.cta{margin-top:30px;display:flex;justify-content:center;gap:17px}
+.cta .btn{height:60px;padding:0 48px;border-radius:10px}
+.p{background:linear-gradient(135deg,var(--accent),var(--accent2));color:#fff}
+.o{background:#fff;border:1.5px solid #3a3d55;color:var(--ink)}
+.app{position:relative;z-index:1;margin-top:51px;background:#fff;border:1px solid var(--line);border-radius:20px 20px 0 0;box-shadow:0 20px 60px -30px rgba(40,40,120,.25);display:grid;grid-template-columns:218px 1fr;min-height:420px}
+.side{border-right:1px solid var(--line);padding:22px 13px}
+.side .brand{font-size:24px;padding:0 10px;height:40px;margin-bottom:18px;gap:8px}
+.side a{display:flex;align-items:center;gap:16px;height:42px;margin-bottom:4px;padding:0 16px;border-radius:9px;font-size:17px;color:#4a4f6a}
+.side a.on{background:var(--soft);color:var(--accent);font-weight:500}
+.main{padding:16px 25px}
+.top{display:flex;align-items:center;height:46px}
+.top h3{margin:0;font-size:25px;font-weight:700;letter-spacing:-.01em}.top small{display:block;color:#8a8ea6;font-size:15px;margin-top:3px;font-weight:400}
+.search{margin-left:auto;width:336px;height:42px;border:1px solid var(--line);border-radius:10px;display:flex;align-items:center;gap:10px;padding:0 14px;color:#9a9db3;font-size:15px}
+.av{margin-left:32px;width:40px;height:40px;border-radius:50%;background:#dfe0fb;color:#3a3ac0;display:grid;place-items:center;font-size:15px;font-weight:600}
+.cards{display:grid;grid-template-columns:1fr 1fr 1fr;gap:15px;margin-top:35px}
+.card{border-radius:14px;height:150px;padding:22px 24px;position:relative}
+.ico{position:absolute;left:24px;top:22px;width:58px;height:58px;border-radius:14px;background:rgba(255,255,255,.65);display:grid;place-items:center}
+.card .l{margin-left:83px;font-size:17px;font-weight:500}.card .v{margin-left:83px;font-size:41px;font-weight:700;letter-spacing:-.02em;line-height:1.1}
+.card .f{position:absolute;left:24px;right:24px;bottom:20px;display:flex;justify-content:space-between;font-size:15px;color:#4a4f6a}
+.two{display:grid;grid-template-columns:658px 1fr;gap:18px;margin-top:24px}
+.panel{border:1px solid var(--line);border-radius:14px;padding:18px 20px;height:140px}
+.ph{display:flex;justify-content:space-between;font-weight:600;font-size:17px}.ph a{color:var(--accent);font-weight:500;font-size:14px}
+.row{display:flex;align-items:center;gap:16px;margin-top:14px;font-size:14px}.row b{display:block;font-size:15px}.row span{color:#6a6e86}
+.row i{width:46px;height:46px;border-radius:11px;background:var(--soft);display:grid;place-items:center}
+svg{display:block}
